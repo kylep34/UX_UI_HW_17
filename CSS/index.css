@@ -2,112 +2,109 @@
 {
     position: absolute;
     position: fixed;
-    margin-top: 0%;
+    top: 0;
     height: 90px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-}
-.logo /* Style for Nav Logo */
-{
-    width: 60px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 15px;
-}
-nav
+}   .logo /* Placement for nav logo */
+    {
+        width: 60px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+nav /* Placement for <nav> tag */
 {
     position: absolute; 
     position: fixed;  
+    top: 0;
     width: 100%;
     height: 90px;
     z-index:1;
-}
-.inline-block
-{
-    margin-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: white;
-    display: inline-block;
-    padding: 30px 50px 1px 0px;
-}
+}   ul /* Placement of the <ul> item */
+    {
+        margin-top: 0px;
+        width: 100%;
+        margin-left: 850px;
+        margin-right: 20px;
+        vertical-align: 50%;
+        max-height: 90px;
+    } .inline-block /* Placement & formatting for individual nav items */
+    {
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+        display: inline-block;
+        padding: 30px 50px 1px 0px;
+    } .line /* Placement & formatting of the white line under all 4 nav items */
+    {
+        position: absolute;
+        margin:59px, 20px, 0px, 880px; 
+        width: 460px;
+        border: 2px solid white;
+    } .selectorLine /* Placement & formatting of the 'active' nav item indecator */ 
+    {
+        position: absolute;
+        border: 2px solid black;
+        padding:59px, 476px, 31px, 880px;
+        margin: 0px;
+        width: 84px;
+        z-index: 1;   
+    } ul /* Placement of the <ul> item */
+    {
+        margin-top: 0px;
+        width: 100%;
+        margin-left: 850px;
+        margin-right: 20px;
+        vertical-align: 50%;
+        max-height: 90px;
+    }
 
-.line
+.heroImg /* Placement of the hero image class*/
 {
     position: absolute;
-    margin:59px, 20px, 0px, 880px; 
-    width: 460px;
-    
-    border: 2px solid white;
-    
-}
-.selectorLine
-{
-    position: absolute;
-    border: 2px solid black;
-    padding:59px, 476px, 31px, 880px;
-    margin: 0px;
-    width: 84px;
-    z-index: 1;   
-}
-
-ul
-{
-    margin-top: 0px;
-    width: 100%;
-    margin-left: 850px;
-    margin-right: 20px;
-    vertical-align: 50%;
-    max-height: 90px;
-}
-.heroImg
-{
-    position: absolute;
-    margin-top: 0%;
+    top: 0;
     height: 908px;
     width: 100%;
     z-index: -1;
-}
+}   .stars /* Placement of the hero image image*/ 
+    {
+        position: absolute;
+        z-index:-1;
+        margin-top: 0%;
+        height: 908px;
+        width: 100%;
+    }
 
-h1,p
+h1,h2,h4,h5,pre /* Formatting of text */
 {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     z-index: 1;
-}
-h1
-{
-    margin:342px 982px 482px 0px;
-    font-size: 72px;
-    font-weight: 500; 
-}
-p
-{
-    margin: 426px 1019px 449px 0px;
-    font-size: 28px;
-    font-weight: 400;
-}
-.content
-{
-    position: absolute;
-    z-index:-1;
-    margin-top: 0%;
-    height: 908px;
-    width: 100%;
-}
+}   h1 /* Formatting and placement of text used for intro heading */
+    {
+        margin:342px 982px 482px 0px;
+        font-size: 72px;
+        font-weight: 500; 
+    } h2 /* Formatting and placement of text used with <h2> tag */
+    {
+        margin: 426px 1019px 449px 0px;
+        font-size: 28px;
+        font-weight: 400;
+    }
 
-button
-{
-    background-color: white;
-    font-size: 20px;
-    height: 65px;
-    width: 200px; 
-    border: 3px solid grey;
-    border-radius: 10px;
-    margin-top: 500px;
-    margin-right: 1100px;
-    margin-left: 150px;
-    
-}
+
+
+
+
+
+
+
+
+
+
+
